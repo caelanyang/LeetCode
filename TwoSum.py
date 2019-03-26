@@ -1,3 +1,6 @@
+"""问题地址： https://leetcode.com/problems/two-sum/"""
+
+
 def two_sum(nums, target):
     for i, a in enumerate(nums):
         for j in range(i + 1, len(nums)):
